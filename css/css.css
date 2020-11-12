@@ -109,6 +109,8 @@ padding-top: 30px;
   }
     .Parralax1{
       height: 50%;
+      background-image: none;
+      background-color: DCDCDC;
     }
 
 }
