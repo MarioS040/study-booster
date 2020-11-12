@@ -1,0 +1,114 @@
+.active{
+  text-decoration: underline;
+  text-decoration-style: bold;
+}
+
+.Parralax1{
+ 
+   background-image: url('../img/background1.jpg');
+
+   
+   height: 100%;
+
+ 
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.text-center{
+  color: white;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 70px;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 400px;
+}
+
+
+.ueberblick{
+margin-top: 50px;
+width: 40%;
+margin-right: auto;
+margin-left: auto;
+}
+
+.header2-ueberblick{
+text-align:center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+font-size: 60px;
+font-weight: bold;
+font-family: "Open Sans", sans-serif;
+}
+
+.header3-ueberblick{
+text-align:center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+font-size: 25px;
+font-family: "Open Sans", sans-serif;
+
+}
+
+
+.delivery-pic{
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+
+.overview{
+width: 33.33%;
+float: left;
+}
+
+.produktansicht{
+margin-top: 50px;
+}
+
+
+.Parralax2{
+   margin-top: 40px;
+   background-image: url('../img/background2.jpg');
+   height: 40%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.parralax2-header{
+color: white;
+text-align:center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+font-size: 40px;
+font-family: "Open Sans", sans-serif;
+padding-top: 30px;
+}
+
+
+@media only screen and (max-width: 990px) {
+  .overview {
+    width: 100%;
+}
+    .delivery-pic{
+    width: 25%;
+    }
+
+    .text-center{
+    font-size:50px;
+}
+
+
+}
