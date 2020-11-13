@@ -14,15 +14,13 @@
 }
 
 
-.text-center{
-  color: white;
-  text-align:center;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  font-size: 70px;
-  font-family: "Open Sans", sans-serif;
-  padding-top: 400px;
+.img-center{
+
+padding-top: 1%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
 }
 
 
@@ -119,13 +117,13 @@ font-weight: bold;
     width: 25%;
     }
 
-    .text-center{
-    font-size:50px;
-    padding-top: 200px;
+    .img-center{
+    padding-top: 5%;
+     width: 400px;
   }
     .Parralax1{
       height: 50%;
-      background-image: none;
+      background-image: "./img/background1-mobile.jpg";
       background-color: DCDCDC;
     }
 
