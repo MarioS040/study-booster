@@ -3,8 +3,14 @@
   text-decoration-style: bold;
 }
 
-.Parralax1{
+.navbar-brand{
+  font-size: 25px !important;
+  font-family: "Open Sans", sans-serif;
 
+}
+
+
+.Parralax1{
    background-image: url('../img/background1.jpg');
    height: 100%;
    background-attachment: fixed;
@@ -123,7 +129,7 @@ font-weight: bold;
   }
     .Parralax1{
       height: 50%;
-      background-image: "./img/background1-mobile.jpg";
+      background-image: url('../img/background1-mobile.jpg');
       background-color: DCDCDC;
     }
 

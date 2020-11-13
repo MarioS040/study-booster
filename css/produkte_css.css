@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+#Parallax {
+    /* The image used */
+     background-image: url('../img/background.jpg');
+  
+     /* Full height */
+     height: 100%;
+  
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+  
+.active{
+    text-decoration: underline;
+    text-decoration-style: bold;
+  }
+  
+.overview{
+  width: 100%;
+  display: flex;
+  padding: 2%;
+  }
+  
+.overview-element {
+    flex: 1;
+}
+
+.flex-main {
+    height: 90%;
+    width:100%;
+    display: flex;
+    padding-top: 8%;
+    align-items: center;
+}
+
+.product1-text {
+    flex: 1;
+    padding-left: 10%;
+}
+#info{
+    font-size: 5vw;
+    color: rgb(0, 0, 0);
+    transition: 1s ease-in;
+}
+.product1-pic {
+    flex: 1;
+    filter: hue-rotate(270deg);
+}
+
+.product1-pic img, .product2-pic img, .product3-pic img{
+    width: 100%;
+    height: auto;
+}
+
+
+.flex-main2 {
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.product2-pic {
+    flex: 1;
+    filter: hue-rotate(0deg);
+}
+
+.product2-text {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+.product2-text:hover #info{
+    border-bottom: 2px solid rgb(241, 152, 36);
+}
+
+.flex-main3 {
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url('../img/background2.jpg');
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product3-pic {
+    flex: 1;
+    filter: hue-rotate(240deg);
+}
+
+.product3-text {
+    flex: 1;
+    padding-left: 10%;
+}
+
+.test {
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+.bild {
+    transition: 0.5s;
+    flex: 1;
+    margin-top: -2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bild img {
+    height: auto;
+    width: 100%;
+    
+}
+
+#pfirsich {
+    filter: hue-rotate(270deg);
+}
+
+#apfel {
+    filter: hue-rotate(0deg);
+}
+
+#erdbeere {
+    filter: hue-rotate(240deg);
+    
+}
+
+.test:hover .bild {
+    filter: saturate(0) blur(1px);
+}
+
+.test .bild:hover {
+    filter: saturate(1) blur(0px);
+    /*transform: translateY(-4%);*/
+}
+
+.bild button {
+    display: inline-block;
+    background: transparent;
+    margin-left: -5%;
+    margin-top: 3%;
+    transition: all 0.3s ease-in-out;
+}
+
+.pfirsich button {
+    border: 2px solid rgb(243, 177, 53);
+    border-radius: 4px;
+    background-color: rgb(243, 177, 53);
+    opacity: 0.8;
+}
+
+.apfel button {
+    border: 2px solid rgb(2, 212, 83);
+    border-radius: 4px;
+    background-color: rgb(2, 212, 83);
+    opacity: 0.8;
+}
+
+.erdbeere button {
+    border: 2px solid rgb(252, 14, 46);
+    border-radius: 4px;
+    background-color: rgb(252, 14, 46);
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.bild button a {
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding: 1.5%;
+    font-size: 1.5vw;
+}
+
+.bild button a:hover {
+    text-decoration: none;
+    color: black;
+}
