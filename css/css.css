@@ -144,15 +144,15 @@ font-weight: bold;
 
 @media only screen and (max-width: 990px) {
   .overview {
-    width: 100%;
+    width: 98%;
 }
     .delivery-pic{
     width: 25%;
     }
 
     .img-center{
-    padding-top: 5%;
-     width: 400px;
+    padding-top: 8%;
+     width: 350px;
   }
     .Parralax1{
       height: 50%;
@@ -166,9 +166,7 @@ font-weight: bold;
 
 
     .Parralax2{
-
        height: 150%;
-
     }
 
 
