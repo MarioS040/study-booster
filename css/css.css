@@ -164,7 +164,7 @@ font-weight: bold;
   footer{
     margin-top: 50px;
     height: 500px;
-    background-color: grey;
+    background-color: #343a40;
   }
 
 
@@ -184,8 +184,8 @@ font-weight: bold;
   }
     .Parralax1{
       height: 50%;
-      background-image: url('../img/background1-mobile.jpg');
-      background-color: DCDCDC;
+      background-image: none;
+      background-color: #343a40;
     }
 
     .parralax2-div{
