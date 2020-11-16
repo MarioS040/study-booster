@@ -145,6 +145,8 @@ font-weight: bold;
 @media only screen and (max-width: 990px) {
   .overview {
     width: 98%;
+    text-align: center;
+
 }
     .delivery-pic{
     width: 25%;
