@@ -164,8 +164,40 @@ font-weight: bold;
   footer{
     margin-top: 50px;
     background-color: #343a40;
-    height: 400px;
+   height: 400px;
+   }
+
+
+  .footer-main{
+    width:50%;
+    float: left;
   }
+
+
+  .main-img{
+    width:200px;
+    padding-top: 50px;
+  }
+
+.footer-section{
+  float: left;
+ width: 25%;
+ padding-top: 50px;
+
+}
+
+  .footer-header{
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+
+td{
+  text-align: center;
+  padding-top: 15px;
+}
+
+
 
 
 @media only screen and (max-width: 990px) {
@@ -192,9 +224,34 @@ font-weight: bold;
       width:100%;
     }
 
-
     .Parralax2{
        height: 150%;
+    }
+
+    .footer-main{
+      width: 100%;
+    }
+
+    .main-img{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+
+    .footer-section{
+      margin-left: auto;
+      margin-right: auto;
+      width:50%;
+    }
+
+    table{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    footer{
+      height: 600px;
     }
 
 
