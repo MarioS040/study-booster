@@ -80,12 +80,11 @@ margin-top: 50px;
 .Parralax2{
    margin-top: 40px;
    background-image: url('../img/background2.jpg');
-   height: 60%;
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
+   height: 60%;
    background-size: cover;
-   min-height: 1000px;
 }
 
 .parralax2-headline{
@@ -228,7 +227,7 @@ td{
     }
 
     .Parralax2{
-       height: 150%;
+    min-height: 1100px;
     }
 
     .footer-main{
