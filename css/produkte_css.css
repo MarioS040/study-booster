@@ -7,10 +7,10 @@
 #Parallax {
     /* The image used */
      background-image: url('../img/background.jpg');
-  
+
      /* Full height */
      height: 100%;
-  
+
      /* Create the parallax scrolling effect */
      background-attachment: fixed;
      background-position: center;
@@ -19,18 +19,18 @@
 }
 
 
-  
+
 .active{
     text-decoration: underline;
     text-decoration-style: bold;
   }
-  
+
 .overview{
   width: 100%;
   display: flex;
   padding: 2%;
   }
-  
+
 .overview-element {
     flex: 1;
 }
@@ -91,8 +91,8 @@
     height: 100%;
     display: flex;
     align-items: center;
-    background-image: url('../img/background2.jpg');
-    
+    background-image: url('../img/background-produkte.jpg');
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -136,7 +136,7 @@
 .bild img {
     height: auto;
     width: 100%;
-    
+
 }
 
 #pfirsich {
@@ -149,7 +149,7 @@
 
 #erdbeere {
     filter: hue-rotate(240deg);
-    
+
 }
 
 .test:hover .bild {
