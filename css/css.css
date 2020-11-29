@@ -199,17 +199,13 @@ td{
   }
 
 
+
 @media only screen and (max-width: 1250px){
   .overview {
     width: 98%;
     text-align: center;
-
+  }
 }
-
-}
-
-
-
 
 
 @media only screen and (max-width: 990px) {
@@ -224,12 +220,16 @@ td{
       height: 50%;
       background-image: none;
       background-color: #343a40;
-    }
+     }
 
-   .overview-p{
-   margin-left: auto;
-   margin-right: auto;
-   }
+     .Header2-ueberblick{
+       font-size: 50px;
+     }
+
+    .overview-p{
+    margin-left: auto;
+    margin-right: auto;
+    }
 
 
     .parralax2-div{
