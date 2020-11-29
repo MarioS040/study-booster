@@ -174,7 +174,8 @@ font-weight: bold;
 
   .footer-img{
     width:200px;
-    padding-top: 80px;
+    padding-top: 90px;
+    margin-left: 25%;
    }
 
   .footer-section{
@@ -196,12 +197,11 @@ td{
 
 .Informationen{
   color: white;
-   margin-top: px;
   }
 
-  
-
-
+  .hi{
+    height: 68px;
+  }
 
 @media only screen and (max-width: 1250px){
   .overview {
