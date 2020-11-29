@@ -60,9 +60,14 @@ font-size: 25px;
 }
 
 
-.delivery-pic{
-width: 40%;
+.Produktbild{
+width: 200px;
+}
 
+.produktbild:hover{
+    filter: saturate(1) blur(0px);
+    transition: all 1s;
+    transform: translateY(-4%);
 }
 
 
