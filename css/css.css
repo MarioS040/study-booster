@@ -14,6 +14,7 @@ font-family: "Open Sans", sans-serif;
   margin-right: auto;
 }
 
+
 .navbar-brand{
   font-size: 25px !important;
 }
@@ -174,15 +175,13 @@ font-weight: bold;
   .footer-img{
     width:200px;
     padding-top: 80px;
+   }
 
-  }
-
-.footer-section{
+  .footer-section{
   float: left;
- width: 16.66%;
- padding-top: 50px;
-
-}
+  width: 16.66%;
+  padding-top: 50px;
+  }
 
   .footer-header{
     color: white;
@@ -193,45 +192,57 @@ font-weight: bold;
 td{
   text-align: center;
   padding-top: 15px;
-}
+  }
 
 .Informationen{
   color:white;
-}
+  }
 
 
-
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1250px){
   .overview {
     width: 98%;
     text-align: center;
 
 }
-    .delivery-pic{
-    width: 25%;
-    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+
 
     .img-center{
     padding-top: 8%;
      width: 350px;
-  }
+     }
+
     .Parralax1{
       height: 50%;
       background-image: none;
       background-color: #343a40;
     }
 
+   .overview-p{
+   margin-left: auto;
+   margin-right: auto;
+   }
+
+
     .parralax2-div{
       width:100%;
     }
 
-    .Parralax2{
-    min-height: 1100px;
-    }
+     .Parralax2{
+     min-height: 1100px;
+     }
 
     .footer-main{
       width: 100%;
-    }
+     }
 
     .footer-img{
       margin-left: auto;
