@@ -241,6 +241,8 @@ td{
 
      .Parralax2{
      min-height: 1100px;
+     background-image: none;
+     background-color: #343a40;
      }
 
     .footer-main{
