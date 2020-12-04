@@ -26,6 +26,7 @@ font-family: "Open Sans", sans-serif;
 
 
 
+
 .Parralax1{
    background-image: url('../img/background1.jpg');
    height: 100%;
@@ -33,7 +34,7 @@ font-family: "Open Sans", sans-serif;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   min-height: 400px;
+   min-height: 480px;
 }
 
 
@@ -89,7 +90,7 @@ margin-top: 50px;
 
 .Parralax2{
    margin-top: 40px;
-   background-image: url('../img/background2.jpg');
+   background-color: #343a40;
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
