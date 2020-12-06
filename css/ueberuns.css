@@ -2,15 +2,15 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    
+
 }
 
 
-/* 
-    --------------
-    --Nav-Leiste--
-    --------------
-*/
+   .dasteam-h2{
+     text-align: center;
+     margin-top: 50px;
+   }
+
 
 #Parallax {
     /* The image used */
@@ -25,12 +25,6 @@
      background-repeat: no-repeat;
      background-size: cover;
 }
-/*
-.headline {
-    letter-spacing: 3px;
-    font-size: 3vw;
-    margin-bottom: 1%;
-}
 
 
 .active{
@@ -38,34 +32,18 @@
     text-decoration-style: bold;
   }
 
-.overview{
-  width: 100%;
-  display: flex;
-  padding: 2%;
-  }
 
-.overview-element {
-    flex: 1;
-}
-*/
-
-.active{
-    text-decoration: underline;
-    text-decoration-style: bold;
-  }
-  
-  
 .centred{
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  
-  
+
+
 .navbar-brand{
     font-size: 25px !important;
   }
-  
+
 .nav-item{
     padding-right: 10px;
     font-size: 17px;
@@ -111,7 +89,7 @@ p {
     height: auto;
     width: 55%;
     transition: all 1s;
-    
+
 }
 
 .bild button {
@@ -123,7 +101,7 @@ p {
 .bild a {
     text-decoration: none;
     color: black;
-    
+
 }
 
 .bild a:hover {
@@ -139,7 +117,7 @@ p {
 
 #zitrone {
     filter: drop-shadow(3px 7px 4px #222);
-    
+
 }
 
 #traube {
@@ -170,7 +148,7 @@ p {
 */
 
 .lemon {
-    
+
 }
 
 .peach, .grape {
@@ -207,7 +185,7 @@ p {
     #needsmargin{
         margin-top: unset;
     }
-    
+
     #headline {
         font-size: 5vw;
     }
@@ -221,7 +199,7 @@ p {
         padding-top: 15px;
     }
     /* BUTTON DESIGN */
-    
+
     .zitrone button {
         border-color: yellow;
     }
@@ -288,7 +266,7 @@ p {
 
     .infotext {
         height: 100%;
-        
+
     }
 
 }
@@ -311,7 +289,7 @@ p {
     .vorstellung {
         margin-top: 0px;
     }
-    
+
     .lemon, .peach, .grape {
         height: 100vh;
         margin-top: 0px;
@@ -320,17 +298,17 @@ p {
     .lemon {
         height: 100vh;
         padding-top: 100px;
-        
+
     }
 
     /* Background*/
-    
+
     .lemon .infotext {
         background-image: url('../img/lemon-background.png');
         background-size: 45%;
         background-repeat: no-repeat;
         background-position: 98% 55%;
-        
+
     }
 
     .peach .infotext {
@@ -338,7 +316,7 @@ p {
         background-size: 45%;
         background-repeat: no-repeat;
         background-position: 2% 55%;
-          
+
     }
 
     .grape .infotext {
