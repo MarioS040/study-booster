@@ -62,25 +62,24 @@ font-size: 25px;
 
 .Produktbild{
 width: 300px;
-
+margin-left: auto;
+margin-right: auto;
 }
 
-
+.div-pic{
+  width: 33%;
+  float: left;
+}
 
 .overview{
-width: 33.33%;
-float: left;
-margin-bottom: 50px;
+margin-top: 50px;
+
 }
 
 .overview-p{
   width: 98%;
   font-size: 30px;
   text-align: center;
-}
-
-.produktansicht{
-margin-top: 50px;
 }
 
 
@@ -200,13 +199,6 @@ td{
     height: 68px;
   }
 
-@media only screen and (max-width: 1250px){
-  .overview {
-    width: 98%;
-    text-align: center;
-  }
-}
-
 
 @media only screen and (max-width: 990px) {
 
@@ -215,6 +207,7 @@ td{
     padding-top: 8%;
      width: 350px;
      }
+
 
     .Parralax1{
       height: 50%;
@@ -231,6 +224,9 @@ td{
     margin-right: auto;
     }
 
+    .produktbild{
+      width:150px;
+    }
 
     .parralax2-div{
       width:100%;
@@ -238,8 +234,6 @@ td{
 
      .Parralax2{
      min-height: 1100px;
-     background-image: none;
-     background-color: #343a40;
      }
 
     .footer-main{
