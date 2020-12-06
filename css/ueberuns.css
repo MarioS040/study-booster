@@ -1,332 +1,142 @@
-* {
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-
+html{
+    font-family: 'Raleway', sans-serif;
 }
 
+ .dasteam{
+   background-image: url('../img/logo-background2.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 30%;
+   height: 100vh;
+   min-height: 890px;
+   min-width: 500px;
+ }
+
+ .dasteam-h2{
+  padding-top: 150px;
+ }
+
+    #headline{
+  margin-top: 100px;
+  font-size: 80px;
+
+      }
+
+.background-grey{
+background-color: #343a40;
+  min-height: 400px;
+}
+
+.person1{
+   padding-top: 50px;
+}
+
+.person2{
+   padding-top: 50px;
+}
+
+.background-white{
+  min-height: 400px;
+}
+    .white{
+      color: white;
+    }
+
+    .content{
+      width: 60%;
+
+
+    }
+
+    .left{
+      float: left;
+    }
+
+    .right{
+      float: right;
+    }
 
    .dasteam-h2{
      text-align: center;
-     margin-top: 50px;
+     margin-top: 70px;
    }
 
+   .img-person-left{
+    width: 20%;
+    float: left;
+    padding-top: 10px;
+   }
 
-#Parallax {
-    /* The image used */
-     background-image: url('../img/background.jpg');
+   .img-person-right{
+    width: 20%;
+    float: right;
+    padding-top: 10px;
+   }
 
-     /* Full height */
-     height: 100%;
+    .h2-person{
+      text-align: center;
+      text-decoration: underline;
+      font-size: 40px;
+    }
 
-     /* Create the parallax scrolling effect */
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-}
+      .p-person{
+      text-align: center;
+      }
+
+     .social-media{
+       margin-top: 50px;
+     }
+
+      .h2-social-media{
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+
+      }
+
+      .p-social-media{
+        text-align: center;
+        font-size: 25px;
+      }
 
 
-.active{
-    text-decoration: underline;
-    text-decoration-style: bold;
-  }
+    @media only screen and (max-width: 990px) {
 
+      .container-img-person{
+        width:100%;
+      }
 
-.centred{
+      .content{
+        width:100%;
+      }
+
+ .dasteam-h2{
+   padding-top: 10px;
+ }
+
+  .img-person-right{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    float: none;
+  }
+
+  .img-person-left{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
   }
 
 
-.navbar-brand{
-    font-size: 25px !important;
+  .background-grey{
+    margin-top: 70px;
+    min-height: 480px;
   }
 
-.nav-item{
-    padding-right: 10px;
-    font-size: 17px;
+  .background-white{
+    margin-top: 70px;
+    min-height: 480px;
   }
-/*
-    -------------
-    --Überblick--
-    -------------
-*/
-
-#headline {
-    font-size: 7vw;
-    letter-spacing: 2px;
-    padding-top: 100px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-}
-
-h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-}
-
-p {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-}
-
-.produktalign {
-    padding-top: 100px;
-    display:none;
-}
-
-.produkte {
-    margin-top: 15%;
-}
-
-#needsmargin {
-    margin-top: 30%;
-}
-
-.bild img, .lemon img, .peach img, .grape img {
-    height: auto;
-    width: 55%;
-    transition: all 1s;
-
-}
-
-.bild button {
-    margin-top: 3%;
-    border-width: 1.5px;
-}
-
-
-.bild a {
-    text-decoration: none;
-    color: black;
-
-}
-
-.bild a:hover {
-    text-decoration: none;
-    color: black;
-}
-
-.vorstellung{
-    padding-top: 20px;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-#zitrone {
-    filter: drop-shadow(3px 7px 4px #222);
-
-}
-
-#traube {
-    filter: drop-shadow(3px 7px 4px #222);
-}
-
-#pfirsich {
-    filter: drop-shadow(3px 7px 4px #222);
-
-}
-
-.produktalign:hover .bild {
-    filter:  blur(1.5px);
-    transition: all 1s;
-}
-
-.produktalign .bild:hover {
-    filter: saturate(1) blur(0px);
-    transition: all 1s;
-    transform: translateY(-4%);
-}
-
-
-/*
-    ------------
-    --Produkte--
-    ------------
-*/
-
-.lemon {
-
-}
-
-.peach, .grape {
-    padding-top: 100px;
-}
-
-/*Background Mobile*/
-.lemon {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(252,255,112,1) 97%, rgb(252, 249, 224) 100%);
-}
-.peach {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(255,150,161,1) 97%, rgb(252, 242, 243) 100%);
-}
-
-.grape  {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(207,148,255,1) 95%, rgb(247, 237, 255) 100%);
-}
-
-/*
-    -----------
-    ---Media---
-    -----------
-*/
-@media (min-width:576px) {
-    .produktalign{
-        padding-top: 100px;
-    }
-}
-
-@media (min-width: 768px) {
-    #needsmargin{
-        margin-top: unset;
-    }
-
-    #headline {
-        font-size: 5vw;
-    }
-
-    .produkte{
-        margin-top: 10%;
-    }
-
-    .produktalign{
-        display: block;
-        padding-top: 15px;
-    }
-    /* BUTTON DESIGN */
-
-    .zitrone button {
-        border-color: yellow;
-    }
-
-    .zitrone button:hover {
-        background-color: yellow;
-        border-color: yellow;
-    }
-
-    .zitrone button:active {
-        background-color: yellow;
-    }
-
-    .pfirsich button {
-        border-color: rgb(218, 117, 142);
-    }
-
-    .pfirsich button:hover {
-        background-color: rgb(218, 117, 142);
-        border-color: rgb(218, 117, 142);
-    }
-
-    .pfirsich button:active {
-        background-color: rgb(218, 117, 142);
-    }
-
-    .traube button {
-        border-color: rgb(192, 104, 243);
-    }
-
-    .traube button:active {
-        background-color: rgb(192, 104, 243);
-    }
-
-    .traube button:hover {
-        background-color: rgb(192, 104, 243);
-        border-color: rgb(192, 104, 243);
-    }
-
-    .bild button:focus {
-        outline: unset;
-        box-shadow: none;
-    }
-
-    /*PRODUKTE*/
-    .vorstellung {
-        margin-top: 0px;
-    }
-
-    .lemon img, .peach img, .grape img {
-        height: auto;
-        width: 75%;
-        transition: all 1s;
-    }
-
-    .lemon, .peach, .grape {
-        height: 45vh;
-        background: none;
-    }
-
-    .lemon {
-        padding-top: 80px;
-    }
-
-    .infotext {
-        height: 100%;
 
     }
-
-}
-
-@media (min-width: 992px) {
-    .produkte{
-        margin-top: 0%;
-    }
-
-    #headline {
-        font-size: 4.5vw;
-    }
-
-    .lemon img, .peach img, .grape img {
-        height: auto;
-        width: 80%;
-        transition: all 1s;
-    }
-
-    .vorstellung {
-        margin-top: 0px;
-    }
-
-    .lemon, .peach, .grape {
-        height: 100vh;
-        margin-top: 0px;
-    }
-
-    .lemon {
-        height: 100vh;
-        padding-top: 100px;
-
-    }
-
-    /* Background*/
-
-    .lemon .infotext {
-        background-image: url('../img/lemon-background.png');
-        background-size: 45%;
-        background-repeat: no-repeat;
-        background-position: 98% 55%;
-
-    }
-
-    .peach .infotext {
-        background-image: url('../img/peach-background.png');
-        background-size: 45%;
-        background-repeat: no-repeat;
-        background-position: 2% 55%;
-
-    }
-
-    .grape .infotext {
-        background-image: url('../img/grape-background.png');
-        background-size: 45%;
-        background-repeat: no-repeat;
-        background-position: 98% 55%;
-        background-blend-mode: multiply;
-
-    }
-
-
-}
