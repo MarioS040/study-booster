@@ -8,8 +8,8 @@ html{
    background-position: center;
    background-size: 30%;
    height: 100vh;
-   min-height: 890px;
-   min-width: 500px;
+   min-height: 920px;
+
  }
 
  .dasteam-h2{
@@ -62,7 +62,7 @@ background-color: #343a40;
    }
 
    .img-person-left{
-    width: 20%;
+    width: 30%;
     float: left;
     padding-top: 10px;
    }
