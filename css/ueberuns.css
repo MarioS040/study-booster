@@ -62,13 +62,13 @@ background-color: #343a40;
    }
 
    .img-person-left{
-    width: 30%;
+    width: 200px;
     float: left;
 
    }
 
    .img-person-right{
-    width: 30%;
+    width: 200px;
     float: right;
 
    }
