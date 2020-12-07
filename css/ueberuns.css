@@ -120,6 +120,7 @@ background-color: #343a40;
     margin-right: auto;
     float: none;
     width: 150px;
+    border-radius: 10%;
   }
 
   .img-person-left{
@@ -128,17 +129,18 @@ background-color: #343a40;
     margin-right: auto;
     float: none;
     width: 150px;
+    border-radius: 10%;
   }
 
 
   .background-grey{
     margin-top: 70px;
-    min-height: 600px;
+    min-height: 700px;
   }
 
   .background-white{
     margin-top: 70px;
-    min-height: 600px;
+    min-height: 700px;
   }
 
     }
