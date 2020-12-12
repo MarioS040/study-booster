@@ -26,12 +26,13 @@ html{
 
 
 .parralax1{
-   height: 100%;
    background-image: url('../img/background1.jpg');
+   height: 100%;
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   min-height: 480px;
 }
 
 
@@ -60,7 +61,7 @@ font-size: 25px;
 }
 
 
-.Produktbild{
+.produktbild{
 width: 300px;
 margin-left: auto;
 margin-right: auto;
@@ -83,7 +84,7 @@ margin-top: 50px;
 }
 
 
-.Parralax2{
+.parralax2{
    margin-top: 40px;
    background-color: #343a40;
    background-attachment: fixed;
