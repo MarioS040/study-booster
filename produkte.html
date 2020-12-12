@@ -1,8 +1,9 @@
 <!DOCTYPE html>
     <head>
         <title>Produkte</title>
-        <link rel="stylesheet" href="./css/produkte.css">
         <link rel="stylesheet" href="./css/css.css">
+        <link rel="stylesheet" href="./css/produkte.css">
+
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -12,10 +13,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
         <link rel="icon" href="./img/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8"/>
+        <meta http-equiv="content-type" content="text/html"; charset="UTF-8">
     </head>
     <body>
-
+      <!--Mobile First-->
       <header>
         <!-- navbar-dark bg-dark gibt Farbe an, expand-lg damit es über die ganze Seite geht.-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
@@ -46,13 +47,14 @@
         </nav>
       </header>
       <main>
+            <!--Übersicht der Produkte-->
             <h2 class="text-center" id="headline">Produktübersicht</h2>
             <div class="container-fluid produktalign">
-
+                <!--Reihe für Content-->
                 <div class="row text-center produkte">
-                  <div class="col-md-4">
+                 <div class="col-md-4">
                     <div class="bild zitrone d-flex flex-column">
-                      <img class ="mx-auto" id="zitrone" src="./img/sb-lemon.png" alt="">
+                      <img class ="mx-auto" id= "zitrone" src="./img/sb-lemon.png">
                       <button type="button" class="btn btn-yellow mx-auto"><a href="#scroll1">Erfahre mehr</a></button>
                     </div>
                   </div>
@@ -74,14 +76,15 @@
 
 
  <!--Produkte-->
+            <!--Bootstrap 4 Flexbox-->
             <div class="d-flex flex-column flex-md-row align-items-center lemon" id="scroll1">
                 <div class="col-md-4 text-center">
                   <img id ="zitrone" src="./img/sb-lemon.png">
                 </div>
 
                 <div class="col-md-8 d-flex flex-column justify-content-center text-center infotext">
-                  <h1>Zitrone</h1>
-                  <p>Hier stehen nun Infos zum Produkt mit Geschmack Zitrone</p>
+                  <h1>Lemon</h1>
+                  <p>Unser erster Study Booster in der Geschmacksrichtung „Lemon“. <br id="breaks">Der Klassiker unter den fruchtigen Geschmacksrichtungen.<br id="breaks"> Dieser Geschmack soll euch fruchtig und erfrischend zu Höchstleistungen bringen. Hierbei müsst Ihr auch nicht auf die natürliche Frische der Zitrone verzichten, da wir ausschließlich mit natürlichen Inhaltsstoffen und ohne Zuckerersätze arbeiten.</p>
                 </div>
             </div>
             <div class="d-flex flex-column flex-md-row-reverse align-items-center peach" id="scroll2">
@@ -90,8 +93,8 @@
               </div>
 
               <div class="col-md-8 d-flex flex-column justify-content-center text-center infotext">
-                  <h1>Pfirsich</h1>
-                  <p>Hier stehen nun Infos zum Produkt mit Geschmack Pfirsich</p>
+                  <h1>Peach</h1>
+                  <p>Natürlich müssen wir Euch neben der Geschmacksrichtung „Lemon“ auch den Geschmack „Peach“ anbieten.<br id="breaks"> So alt wie diese Geschmacksrichtungen sind, so alt ist auch der Streit, welcher Geschmack der bessere ist. Doch diese Entscheidung überlassen wir Euch.<br id="breaks"> Lasst euch auf das fruchtig-süße Erlebnis ein und wählt euren Favoriten.</p>
 
               </div>
             </div>
@@ -101,74 +104,74 @@
               </div>
 
               <div class="col-md-8 d-flex flex-column justify-content-center text-center infotext">
-                <h1>Traube</h1>
-                <p>Hier stehen nun Infos zum Produkt mit Geschmack Traube</p>
+                <h1>Grape</h1>
+                <p>Neben den beiden Klassikern möchten wir Euch mit "Grape" eine weitere außergewöhnliche Alternative bieten: <br id="breaks"> Trauben, sonst eher bekannt von alkoholischen Getränken, bieten ein alternatives Geschmackserlebnis zu unseren anderen beiden Sorten. Die erfrischende süße der Traube steht hier im Vordergrund.</p>
               </div>
             </div>
 
 
     </main>
-
+    <!--FOOTER-->
     <footer>
-      <div class="footer-main">
-        <img class="footer-img" src="./img/logo-white.png" alt="">
-      </div>
-      <div class="footer-section">
-        <table>
-        <tbody>
-        <tr>
-        <td class="footer-header">Social Media</td>
-        </tr>
-        <tr>
-        <td><a href="https://instagram.com"><img src="./img/logo-ig.png" alt="" width="50px"></a></td>
-        </tr>
-        <tr>
-        <td><a href="https://twitter.com"><img src="./img/logo-twitter.png" alt="" width="50px"></a></td>
-        </tr>
-        <tr>
-        <td><a href="https://facebook.com"><img src="./img/logo-fb.png" alt="" width="50px"></a></td>
-        </tr>
-        </tbody>
-        </table>
-      </div>
+    <div class="footer-main">
+      <img class="footer-img" src="./img/logo-white.png" alt="Logo">
+    </div>
+    <div class="footer-section">
+      <table>
+      <tbody>
+      <tr>
+      <td class="footer-header">Social Media</td>
+      </tr>
+      <tr>
+      <td><a href="https://instagram.com"><img class="logo-footer" src="./img/logo-ig.png" alt="Instagram"></a></td>
+      </tr>
+      <tr>
+      <td><a href="https://twitter.com"><img class="logo-footer" src="./img/logo-twitter.png" alt="Twitter"></a></td>
+      </tr>
+      <tr>
+      <td><a href="https://facebook.com"><img class="logo-footer" src="./img/logo-fb.png" alt="Facebook"></a></td>
+      </tr>
+      </tbody>
+      </table>
+    </div>
 
-      <div class="footer-section">
-        <table>
-        <tbody>
-        <tr>
-        <td class="footer-header">Bezahlung</td>
-        </tr>
-        <tr>
-        <td><a href="https://paypal.com"><img src="./img/logo-pp.png" alt="" width="50px"></a></td>
-        </tr>
-        <tr>
-        <td><a href="https://www.iban.de/sepa-ueberweisung.html"><img src="./img/logo-sepa.png" alt="" width="50px"></a></td>
-        </tr>
-        <tr>
-        <td><a href="https://facebook.com"><img src="./img/logo-btc.png" alt="" width="50px"></a></td>
-        </tr>
-        </tbody>
-        </table>
-      </div>
+    <div class="footer-section">
+      <table>
+      <tbody>
+      <tr>
+      <td class="footer-header">Bezahlung</td>
+      </tr>
+      <tr>
+      <td><a href="https://paypal.com"><img class="logo-footer" src="./img/logo-pp.png" alt="PayPal"></a></td>
+      </tr>
+      <tr>
+      <td><a href="https://www.iban.de/sepa-ueberweisung.html"><img class="logo-footer" src="./img/logo-sepa.png" alt="Iban"></a></td>
+      </tr>
+      <tr>
+      <td><a href="https://facebook.com"><img class="logo-footer" src="./img/logo-btc.png" alt="Facebook"></a></td>
+      </tr>
+      </tbody>
+      </table>
+    </div>
 
-      <div class="footer-section">
-        <table>
-        <tbody>
-        <tr>
-        <td class="footer-header">Informationen</td>
-        </tr>
-        <tr>
-        <td class="hi"><a class="Informationen" href="impressum.html">Impressum</a></td>
-        </tr>
-        <tr>
-        <td  class="hi"><a class="Informationen" href="https://www.iban.de/sepa-ueberweisung.html">Anfahrt</a></td>
-        </tr>
-        <tr>
-        <td  class="hi"><a class="Informationen" href="https://facebook.com">Datenschutz</a></td>
-        </tr>
-        </tbody>
-        </table>
-      </div>
+    <div class="footer-section">
+      <table>
+      <tbody>
+      <tr>
+      <td class="footer-header">Informationen</td>
+      </tr>
+      <tr>
+      <td class="Tabelle"><a class="informationen" href="impressum.html">Impressum</a></td>
+      </tr>
+      <tr>
+      <td  class="Tabelle"><a class="informationen" href="https://www.iban.de/sepa-ueberweisung.html">Anfahrt</a></td>
+      </tr>
+      <tr>
+      <td  class="Tabelle"><a class="informationen" href="https://facebook.com">Datenschutz</a></td>
+      </tr>
+      </tbody>
+      </table>
+    </div>
     </footer>
   </body>
 </html>

@@ -2,80 +2,39 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-
+    
 }
-
-
-/*
-    --------------
-    --Nav-Leiste--
-    --------------
+/* -------
+   --NAV--
+   -------
 */
-
-.dasteam-h2{
-  text-align: center;
-}
-
-
-#Parallax {
-     background-image: url('../img/background.jpg');
-     height: 100%;
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-}
-/*
-.headline {
-    letter-spacing: 3px;
-    font-size: 3vw;
-    margin-bottom: 1%;
-}
-
-
-.active{
+.active {
     text-decoration: underline;
     text-decoration-style: bold;
-  }
-
-.overview{
-  width: 100%;
-  display: flex;
-  padding: 2%;
-  }
-
-.overview-element {
-    flex: 1;
 }
-*/
-
-.active{
-    text-decoration: underline;
-    text-decoration-style: bold;
-  }
-
-
-.centred{
+  
+  
+.centred {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-
-
-.navbar-brand{
+}
+  
+.navbar-brand {
     font-size: 25px !important;
-  }
-
-.nav-item{
+}
+  
+.nav-item {
     padding-right: 10px;
     font-size: 17px;
-  }
+}
 /*
     -------------
-    --Überblick--
+    --ÜBERBLICK--
     -------------
 */
 
+/* TEXT */
 #headline {
     font-size: 7vw;
     letter-spacing: 2px;
@@ -87,13 +46,22 @@
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    
 }
 
 p {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
+    font-size: 16px;
 }
 
+.infotext p {
+    font-size: 1em;
+    text-align: justify;
+}
+/* /TEXT */
+
+/* AB TABLET: BLURRED ÜBERSICHT*/
 .produktalign {
     padding-top: 100px;
     display:none;
@@ -103,15 +71,11 @@ p {
     margin-top: 15%;
 }
 
-#needsmargin {
-    margin-top: 30%;
-}
 
-.bild img, .lemon img, .peach img, .grape img {
+.bild img {
     height: auto;
     width: 55%;
     transition: all 1s;
-
 }
 
 .bild button {
@@ -119,11 +83,10 @@ p {
     border-width: 1.5px;
 }
 
-
 .bild a {
     text-decoration: none;
     color: black;
-
+    
 }
 
 .bild a:hover {
@@ -137,19 +100,12 @@ p {
     padding-right: 0;
 }
 
-#zitrone {
-    filter: drop-shadow(3px 7px 4px #222);
+#zitrone, #pfirsich, #traube {
+    filter: drop-shadow(2px 5px 3px #222);
 
 }
 
-#traube {
-    filter: drop-shadow(3px 7px 4px #222);
-}
 
-#pfirsich {
-    filter: drop-shadow(3px 7px 4px #222);
-
-}
 
 .produktalign:hover .bild {
     filter:  blur(1.5px);
@@ -169,8 +125,11 @@ p {
     ------------
 */
 
-.lemon {
-
+/* BILDER */
+.lemon img, .peach img, .grape img {
+    height: auto;
+    width: 55%;
+    transition: all 1s;
 }
 
 .peach, .grape {
@@ -180,18 +139,25 @@ p {
 /*Background Mobile*/
 .lemon {
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(252,255,112,1) 97%, rgb(252, 249, 224) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 15%, rgba(252,255,112,1) 100%);
 }
 .peach {
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(255,150,161,1) 97%, rgb(252, 242, 243) 100%);
+    background: linear-gradient(180deg, rgba(252,255,112,1) 0%, rgba(255,255,255,1) 15%, rgba(255,150,161,1) 100%);
 }
 
-.grape  {
+.grape {
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(207,148,255,1) 95%, rgb(247, 237, 255) 100%);
+    background: linear-gradient(180deg, rgba(255,150,161,1) 0%,rgba(255,255,255,1) 15%, rgba(207,148,255,1) 100%);
 }
 
+/*  ----------
+    --FOOTER--
+    ----------
+*/
+footer {
+    margin-top: 0px;
+}
 /*
     -----------
     ---Media---
@@ -201,19 +167,24 @@ p {
     .produktalign{
         padding-top: 100px;
     }
+
+    #breaks {
+        display:none;
+    }
+
+    .infotext p {
+        line-height: 180%;
+    }
 }
 
 @media (min-width: 768px) {
-    #needsmargin{
-        margin-top: unset;
-    }
-
+    
     #headline {
         font-size: 5vw;
     }
 
     .produkte{
-        margin-top: 10%;
+        margin-top: 2%;
     }
 
     .produktalign{
@@ -221,7 +192,7 @@ p {
         padding-top: 15px;
     }
     /* BUTTON DESIGN */
-
+    
     .zitrone button {
         border-color: yellow;
     }
@@ -236,16 +207,16 @@ p {
     }
 
     .pfirsich button {
-        border-color: rgb(218, 117, 142);
+        border-color: rgb(231, 144, 166);
     }
 
     .pfirsich button:hover {
-        background-color: rgb(218, 117, 142);
-        border-color: rgb(218, 117, 142);
+        background-color: rgb(231, 144, 166);
+        border-color: rgb(231, 144, 166);
     }
 
     .pfirsich button:active {
-        background-color: rgb(218, 117, 142);
+        background-color: rgb(231, 144, 166);
     }
 
     .traube button {
@@ -267,14 +238,11 @@ p {
     }
 
     /*PRODUKTE*/
-    .vorstellung {
-        margin-top: 0px;
-    }
-
     .lemon img, .peach img, .grape img {
         height: auto;
-        width: 75%;
+        min-width: 80%;
         transition: all 1s;
+        
     }
 
     .lemon, .peach, .grape {
@@ -284,11 +252,20 @@ p {
 
     .lemon {
         padding-top: 80px;
+        margin-top: 50px;
     }
 
     .infotext {
         height: 100%;
-
+        padding-top: 5%;  
+    }
+    /*BACKGROUND*/
+    
+    
+    
+    /*FOOTER*/
+    footer{
+        margin-top: 50px;
     }
 
 }
@@ -302,6 +279,15 @@ p {
         font-size: 4.5vw;
     }
 
+    h1 {
+        font-weight: 500;
+    }
+
+    .lemon p, .peach p, .grape p {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
     .lemon img, .peach img, .grape img {
         height: auto;
         width: 80%;
@@ -311,34 +297,34 @@ p {
     .vorstellung {
         margin-top: 0px;
     }
-
+    
     .lemon, .peach, .grape {
         height: 100vh;
         margin-top: 0px;
+        background:none;
     }
 
     .lemon {
         height: 100vh;
         padding-top: 100px;
-
+        
     }
 
     /* Background*/
-
+    
     .lemon .infotext {
         background-image: url('../img/lemon-background.png');
         background-size: 45%;
         background-repeat: no-repeat;
         background-position: 98% 55%;
-
+        
     }
 
     .peach .infotext {
         background-image: url('../img/peach-background.png');
         background-size: 45%;
         background-repeat: no-repeat;
-        background-position: 2% 55%;
-
+        background-position: 2% 55%;          
     }
 
     .grape .infotext {
@@ -346,9 +332,15 @@ p {
         background-size: 45%;
         background-repeat: no-repeat;
         background-position: 98% 55%;
-        background-blend-mode: multiply;
+    }
+}
 
+@media (min-width: 1800px) {
+    .lemon p, .peach p, .grape p{
+        font-size: 35px;
     }
 
-
+    .lemon h1, .peach h1, .grape h1 {
+        font-size: 70px;
+    }
 }
