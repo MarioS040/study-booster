@@ -40,6 +40,7 @@ font-family: "Open Sans", sans-serif;
 
 .img-center{
 padding-top: 3%;
+width: 50px;
 }
 
 
@@ -200,7 +201,7 @@ td{
   color: white;
   }
 
-  .hi{
+  .Tabelle{
     height: 68px;
   }
 
@@ -261,7 +262,7 @@ td{
     .footer-section{
       margin-left: auto;
       margin-right: auto;
-      width:33%;
+      width:30%;
     }
 
     table{
@@ -275,6 +276,20 @@ td{
 
 
 }
+
+
+@media only screen and (max-width: 400px) {
+
+.img-center{
+  width: 300px;
+  padding-top: 20%;
+}
+
+
+.footer-header{
+  font-size: 15px;
+}
+
 
 
 }
