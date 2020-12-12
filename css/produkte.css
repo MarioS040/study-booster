@@ -1,0 +1,354 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+
+/*
+    --------------
+    --Nav-Leiste--
+    --------------
+*/
+
+.dasteam-h2{
+  text-align: center;
+}
+
+
+#Parallax {
+     background-image: url('../img/background.jpg');
+     height: 100%;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+/*
+.headline {
+    letter-spacing: 3px;
+    font-size: 3vw;
+    margin-bottom: 1%;
+}
+
+
+.active{
+    text-decoration: underline;
+    text-decoration-style: bold;
+  }
+
+.overview{
+  width: 100%;
+  display: flex;
+  padding: 2%;
+  }
+
+.overview-element {
+    flex: 1;
+}
+*/
+
+.active{
+    text-decoration: underline;
+    text-decoration-style: bold;
+  }
+
+
+.centred{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.navbar-brand{
+    font-size: 25px !important;
+  }
+
+.nav-item{
+    padding-right: 10px;
+    font-size: 17px;
+  }
+/*
+    -------------
+    --Überblick--
+    -------------
+*/
+
+#headline {
+    font-size: 7vw;
+    letter-spacing: 2px;
+    padding-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.produktalign {
+    padding-top: 100px;
+    display:none;
+}
+
+.produkte {
+    margin-top: 15%;
+}
+
+#needsmargin {
+    margin-top: 30%;
+}
+
+.bild img, .lemon img, .peach img, .grape img {
+    height: auto;
+    width: 55%;
+    transition: all 1s;
+
+}
+
+.bild button {
+    margin-top: 3%;
+    border-width: 1.5px;
+}
+
+
+.bild a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.bild a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.vorstellung{
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#zitrone {
+    filter: drop-shadow(3px 7px 4px #222);
+
+}
+
+#traube {
+    filter: drop-shadow(3px 7px 4px #222);
+}
+
+#pfirsich {
+    filter: drop-shadow(3px 7px 4px #222);
+
+}
+
+.produktalign:hover .bild {
+    filter:  blur(1.5px);
+    transition: all 1s;
+}
+
+.produktalign .bild:hover {
+    filter: saturate(1) blur(0px);
+    transition: all 1s;
+    transform: translateY(-4%);
+}
+
+
+/*
+    ------------
+    --Produkte--
+    ------------
+*/
+
+.lemon {
+
+}
+
+.peach, .grape {
+    padding-top: 100px;
+}
+
+/*Background Mobile*/
+.lemon {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(252,255,112,1) 97%, rgb(252, 249, 224) 100%);
+}
+.peach {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(255,150,161,1) 97%, rgb(252, 242, 243) 100%);
+}
+
+.grape  {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 40%, rgba(207,148,255,1) 95%, rgb(247, 237, 255) 100%);
+}
+
+/*
+    -----------
+    ---Media---
+    -----------
+*/
+@media (min-width:576px) {
+    .produktalign{
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    #needsmargin{
+        margin-top: unset;
+    }
+
+    #headline {
+        font-size: 5vw;
+    }
+
+    .produkte{
+        margin-top: 10%;
+    }
+
+    .produktalign{
+        display: block;
+        padding-top: 15px;
+    }
+    /* BUTTON DESIGN */
+
+    .zitrone button {
+        border-color: yellow;
+    }
+
+    .zitrone button:hover {
+        background-color: yellow;
+        border-color: yellow;
+    }
+
+    .zitrone button:active {
+        background-color: yellow;
+    }
+
+    .pfirsich button {
+        border-color: rgb(218, 117, 142);
+    }
+
+    .pfirsich button:hover {
+        background-color: rgb(218, 117, 142);
+        border-color: rgb(218, 117, 142);
+    }
+
+    .pfirsich button:active {
+        background-color: rgb(218, 117, 142);
+    }
+
+    .traube button {
+        border-color: rgb(192, 104, 243);
+    }
+
+    .traube button:active {
+        background-color: rgb(192, 104, 243);
+    }
+
+    .traube button:hover {
+        background-color: rgb(192, 104, 243);
+        border-color: rgb(192, 104, 243);
+    }
+
+    .bild button:focus {
+        outline: unset;
+        box-shadow: none;
+    }
+
+    /*PRODUKTE*/
+    .vorstellung {
+        margin-top: 0px;
+    }
+
+    .lemon img, .peach img, .grape img {
+        height: auto;
+        width: 75%;
+        transition: all 1s;
+    }
+
+    .lemon, .peach, .grape {
+        height: 45vh;
+        background: none;
+    }
+
+    .lemon {
+        padding-top: 80px;
+    }
+
+    .infotext {
+        height: 100%;
+
+    }
+
+}
+
+@media (min-width: 992px) {
+    .produkte{
+        margin-top: 0%;
+    }
+
+    #headline {
+        font-size: 4.5vw;
+    }
+
+    .lemon img, .peach img, .grape img {
+        height: auto;
+        width: 80%;
+        transition: all 1s;
+    }
+
+    .vorstellung {
+        margin-top: 0px;
+    }
+
+    .lemon, .peach, .grape {
+        height: 100vh;
+        margin-top: 0px;
+    }
+
+    .lemon {
+        height: 100vh;
+        padding-top: 100px;
+
+    }
+
+    /* Background*/
+
+    .lemon .infotext {
+        background-image: url('../img/lemon-background.png');
+        background-size: 45%;
+        background-repeat: no-repeat;
+        background-position: 98% 55%;
+
+    }
+
+    .peach .infotext {
+        background-image: url('../img/peach-background.png');
+        background-size: 45%;
+        background-repeat: no-repeat;
+        background-position: 2% 55%;
+
+    }
+
+    .grape .infotext {
+        background-image: url('../img/grape-background.png');
+        background-size: 45%;
+        background-repeat: no-repeat;
+        background-position: 98% 55%;
+        background-blend-mode: multiply;
+
+    }
+
+
+}

@@ -1,5 +1,5 @@
 html{
-font-family: "Open Sans", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .active{
@@ -23,8 +23,6 @@ font-family: "Open Sans", sans-serif;
   padding-right: 10px;
   font-size: 17px;
 }
-
-
 
 
 .Parralax1{
@@ -65,27 +63,24 @@ font-size: 25px;
 
 .Produktbild{
 width: 300px;
+margin-left: auto;
+margin-right: auto;
 }
 
-.produktbild:hover{
-    filter: saturate(1) blur(0px);
-    transition: all 1s;
-    transform: translateY(-4%);
+.div-pic{
+  width: 33%;
+  float: left;
 }
-
 
 .overview{
-width: 33.33%;
-float: left;
+margin-top: 50px;
+
 }
 
 .overview-p{
   width: 98%;
-  margin-top: 30px;
-}
-
-.produktansicht{
-margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
 }
 
 
@@ -205,13 +200,6 @@ td{
     height: 68px;
   }
 
-@media only screen and (max-width: 1250px){
-  .overview {
-    width: 98%;
-    text-align: center;
-  }
-}
-
 
 @media only screen and (max-width: 990px) {
 
@@ -220,6 +208,7 @@ td{
     padding-top: 8%;
      width: 350px;
      }
+
 
     .Parralax1{
       height: 50%;
@@ -236,6 +225,9 @@ td{
     margin-right: auto;
     }
 
+    .produktbild{
+      width:100px;
+    }
 
     .parralax2-div{
       width:100%;
@@ -243,8 +235,6 @@ td{
 
      .Parralax2{
      min-height: 1100px;
-     background-image: none;
-     background-color: #343a40;
      }
 
     .footer-main{
