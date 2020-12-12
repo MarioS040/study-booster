@@ -6,7 +6,7 @@ html{
    background-image: url('../img/logo-background2.png');
    background-repeat: no-repeat;
    background-position: center;
-   background-size: 30%;
+   background-size: 30vw;
    height: 100vh;
    min-height: 920px;
 
@@ -101,6 +101,16 @@ background-color: #343a40;
       }
 
 
+
+
+  @media only screen and (max-width: 1200px){
+    .dasteam{
+   background-size: 50vw;
+    }
+
+  }
+
+
     @media only screen and (max-width: 990px) {
 
       .container-img-person{
@@ -109,6 +119,10 @@ background-color: #343a40;
 
       .content{
         width:100%;
+      }
+
+      .dasteam{
+     background-size: 60vw;
       }
 
  .dasteam-h2{
