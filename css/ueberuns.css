@@ -168,11 +168,26 @@ background-color: #343a40;
 
 @media only screen and (max-width: 400px){
 #headline{
-font-size: 75px;
+font-size: 60px;
 }
 .dasteam{
-
   min-height: 1350px;
+}
+
+.dasteam-h2{
+ padding-top: 150px;
+ font-size: 30px;
+}
+
+.background-grey{
+
+  margin-top: 90px;
+  min-height: 600px;
+}
+
+.background-white{
+  margin-top: 90px;
+  min-height: 500px;
 }
 
 }
