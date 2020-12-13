@@ -271,12 +271,7 @@ td{
 
 }
 
-@media only screen and (max-width: 765px) {
 
-  .produktbild{
-    width: 150px;
-  }
-}
 
 @media only screen and (max-width: 765px){
   .produktbild{
