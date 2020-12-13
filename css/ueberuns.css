@@ -131,11 +131,12 @@ background-color: #343a40;
 
       .dasteam{
      background-size: 60vw;
-     min-height: 1000px;
+
       }
 
  .dasteam-h2{
-   padding-top: 10px;
+   padding-top: 4px;
+   font-size: 3vw;
  }
 
   .img-person-right{
@@ -159,31 +160,43 @@ background-color: #343a40;
 
 
   .background-grey{
-    margin-top: 70px;
-    min-height: 700px;
-  }
+     margin-top: 70px;
+     min-height: 500px;
+   }
 
-  .background-white{
-    margin-top: 70px;
-    min-height: 700px;
-  }
+   .background-white{
+     margin-top: 70px;
+     min-height: 500px;
+   }
+   .p-social-media{
+     text-align: center;
+     font-size: 4vw;
+   }
 
     }
 
+@media only screen and (max-width: 600px){
+  .dasteam-h2{
 
+   font-size: 5vw;
+  }
+
+  .p-social-media{
+    text-align: center;
+    font-size: 6vw;
+  }
+
+}
 @media only screen and (max-width: 400px){
 #headline{
 font-size: 60px;
 margin-top: 100px;
 }
 .dasteam{
-  min-height: 1200px;
+
 }
 
-.dasteam-h2{
 
- font-size: 30px;
-}
 
 .background-grey{
 
