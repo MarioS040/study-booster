@@ -100,7 +100,7 @@ p {
     padding-right: 0;
 }
 
-#zitrone, #pfirsich, #traube {
+.zitrone-foto, .pfirsich-foto, .traube-foto {
     filter: drop-shadow(2px 5px 3px #222);
 
 }
@@ -166,10 +166,6 @@ footer {
 @media (min-width:576px) {
     .produktalign{
         padding-top: 100px;
-    }
-
-    #breaks {
-        display:none;
     }
 
     .infotext p {
