@@ -27,3 +27,9 @@ margin: 0px;
 margin-top: 50px;
 
 }
+
+
+.mail{
+ content: "\A";
+ white-space: pre;
+}
