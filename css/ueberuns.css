@@ -8,13 +8,14 @@ html{
    background-position: center;
    background-size: 30vw;
    height: 100vh;
-   min-height: 1350px;
+
 
  }
 
 
  .dasteam-h2{
   padding-top: 150px;
+  font-weight: 350;
  }
 
     #headline{
@@ -118,7 +119,7 @@ background-color: #343a40;
       }
 
       .content{
-        width:100%;
+.        width:100%;
       }
 
       .dasteam{
@@ -166,4 +167,9 @@ background-color: #343a40;
 #headline{
 font-size: 75px;
 }
+.dasteam{
+
+  min-height: 1350px;
+}
+
 }
